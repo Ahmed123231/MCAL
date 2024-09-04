@@ -123,34 +123,7 @@
     <Compile Include="BIT_MATH.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="DIO_interface.h">
-      <SubType>compile</SubType>
-    </Compile>
-    <Compile Include="DIO_prog.c">
-      <SubType>compile</SubType>
-    </Compile>
-    <Compile Include="DIO_reg.h">
-      <SubType>compile</SubType>
-    </Compile>
-    <Compile Include="GI_interface.h">
-      <SubType>compile</SubType>
-    </Compile>
-    <Compile Include="GI_prog.c">
-      <SubType>compile</SubType>
-    </Compile>
-    <Compile Include="GI_reg.h">
-      <SubType>compile</SubType>
-    </Compile>
     <Compile Include="INT_Vector.h">
-      <SubType>compile</SubType>
-    </Compile>
-    <Compile Include="Led_Interface.h">
-      <SubType>compile</SubType>
-    </Compile>
-    <Compile Include="Led_prog.c">
-      <SubType>compile</SubType>
-    </Compile>
-    <Compile Include="main.c">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="STD_TYPE.h">

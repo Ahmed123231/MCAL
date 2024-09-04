@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>7.0</ProjectVersion>
     <ToolchainName>com.Atmel.AVRGCC8.C</ToolchainName>
-    <ProjectGuid>{c4289caa-b167-426f-8acc-4a8906f9aa85}</ProjectGuid>
+    <ProjectGuid>dce6c7e3-ee26-4d79-826b-08594b9ad897</ProjectGuid>
     <avrdevice>ATmega32</avrdevice>
     <avrdeviceseries>none</avrdeviceseries>
     <OutputType>Executable</OutputType>
@@ -12,9 +12,9 @@
     <OutputFileName>$(MSBuildProjectName)</OutputFileName>
     <OutputFileExtension>.elf</OutputFileExtension>
     <OutputDirectory>$(MSBuildProjectDirectory)\$(Configuration)</OutputDirectory>
-    <AssemblyName>SPI_slave2</AssemblyName>
-    <Name>SPI_slave2</Name>
-    <RootNamespace>SPI_slave2</RootNamespace>
+    <AssemblyName>TWI</AssemblyName>
+    <Name>TWI</Name>
+    <RootNamespace>TWI</RootNamespace>
     <ToolchainFlavour>Native</ToolchainFlavour>
     <KeepTimersRunning>true</KeepTimersRunning>
     <OverrideVtor>false</OverrideVtor>
@@ -126,16 +126,19 @@
     <Compile Include="INT_Vector.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="SPI_interface.h">
-      <SubType>compile</SubType>
-    </Compile>
-    <Compile Include="SPI_prog.c">
-      <SubType>compile</SubType>
-    </Compile>
-    <Compile Include="SPI_reg.h">
-      <SubType>compile</SubType>
-    </Compile>
     <Compile Include="STD_TYPE.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="TWI_interface.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="TWI_private.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="TWI_prog.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="TWI_reg.h">
       <SubType>compile</SubType>
     </Compile>
   </ItemGroup>
